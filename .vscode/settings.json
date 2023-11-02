@@ -1,0 +1,13 @@
+{
+    "workbench.colorCustomizations": {
+        // "titleBar.activeBackground": "#222",
+        // "titleBar.activeForeground": "#f2633a",
+        // "tab.activeBorderTop": "#fff",
+        // "activityBar.background": "#333",
+        // "activityBar.foreground": "#2261ae",
+        // "statusBar.background": "#222",
+        // "statusBar.foreground": "#f2633a",
+    },
+    "editor.tabSize": 2,
+    "javascript.preferences.quoteStyle": "single",
+}
