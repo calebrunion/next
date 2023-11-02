@@ -1,13 +1,9 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [
-        "Airtable",
-        "moby",
-        "tailwindcss"
-    ],
-    "ignoreWords": [],
-    "import": []
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": ["Airtable", "moby", "tailwindcss"],
+  "ignoreWords": [],
+  "import": []
 }
