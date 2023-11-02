@@ -6,7 +6,8 @@
     "dev": "next dev -p 5893",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "airtable": "^0.12.2",
@@ -20,8 +21,15 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.51.0",
     "eslint-config-next": "^13.5.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
     "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --cache --fix",
+    "*.{js,,ts,jsx,tsx,css,md}": "prettier --write"
   }
 }
