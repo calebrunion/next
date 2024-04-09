@@ -23,13 +23,7 @@
     "@types/react-dom": "18",
     "eslint": "8",
     "eslint-config-next": "14",
-    "husky": "8",
-    "lint-staged": "15",
     "prettier": "3",
     "typescript": "5.2.2"
-  },
-  "lint-staged": {
-    "*.{js,ts,jsx,tsx}": "eslint --cache",
-    "*.{js,ts,jsx,tsx,css,md}": "prettier --write"
   }
 }
